@@ -1,45 +1,46 @@
 {
   "version": 8,
-  "name": "Klokantech Night",
+  "name": "Fiord Color",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:type": "template",
     "mapbox:groups": {
       "b6371a3f2f5a9932464fa3867530a2e5": {
         "name": "Transportation",
-        "collapsed": false
+        "collapsed": true
       },
       "a14c9607bc7954ba1df7205bf660433f": {
-        "name": "Boundaries"
+        "name": "Boundaries",
+        "collapsed": true
       },
       "101da9f13b64a08fa4b6ac1168e89e5f": {
         "name": "Places",
-        "collapsed": false
+        "collapsed": true
       }
     },
     "openmaptiles:version": "3.x"
   },
   "center": [
-    8.540076704905232,
-    47.36907181858001
+    0.41134944662525186,
+    -1.7053025658242404e-13
   ],
-  "zoom": 15.978927732416745,
+  "zoom": 1.3869401319571246,
   "bearing": 0,
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "mapbox://openmaptiles.805mi4we",
+      "url": "mapbox://openmaptiles.4qljc88t",
       "type": "vector"
     }
   },
-  "sprite": "mapbox://sprites/openmaptiles/ciwgui3x5001w2pnvhc0c2wg0",
+  "sprite": "mapbox://sprites/openmaptiles/ciwlw4z7800092qmvzlut41tx",
   "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "hsl(209, 64%, 19%)"
+        "background-color": "#45516E"
       }
     },
     {
@@ -56,7 +57,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsl(232, 44%, 12%)",
+        "fill-color": "#38435C",
         "fill-antialias": false
       }
     },
@@ -85,33 +86,6 @@
       "paint": {
         "fill-color": "hsl(232, 33%, 34%)",
         "fill-opacity": 0.4
-      }
-    },
-    {
-      "id": "landcover_glacier",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landcover",
-      "maxzoom": 8,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Polygon"
-        ],
-        [
-          "==",
-          "subclass",
-          "glacier"
-        ]
-      ],
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "fill-color": "hsl(195, 20%, 58%)",
-        "fill-opacity": 0.2
       }
     },
     {
@@ -176,12 +150,12 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsla(232, 44%, 12%, 0.57)",
+        "fill-color": "hsla(232, 18%, 30%, 0.57)",
         "fill-opacity": {
           "base": 1,
           "stops": [
             [
-              8,
+              9,
               0
             ],
             [
@@ -206,7 +180,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsla(195, 71%, 26%, 0.67)",
+        "fill-color": "hsl(204, 17%, 35%)",
         "fill-opacity": 0.3
       }
     },
@@ -243,7 +217,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(232, 44%, 12%)"
+        "line-color": "hsl(232, 23%, 28%)",
+        "line-opacity": 0.6
       }
     },
     {
@@ -265,13 +240,14 @@
           "Metropolis Medium Italic",
           "Arial Unicode MS Regular"
         ],
-        "text-size": 12
+        "text-size": 12,
+        "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgb(157,169,177)",
-        "text-halo-color": "hsl(232, 44%, 12%)",
+        "text-color": "hsl(223, 21%, 52%)",
+        "text-halo-color": "hsl(232, 5%, 19%)",
         "text-halo-width": 1,
-        "text-halo-blur": 1
+        "text-halo-blur": 0
       }
     },
     {
@@ -287,26 +263,8 @@
       ],
       "paint": {
         "fill-color": "hsla(232, 47%, 18%, 0.65)",
-        "fill-antialias": false
-      }
-    },
-    {
-      "id": "housenumber",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "housenumber",
-      "minzoom": 16.4,
-      "filter": [
-        "==",
-        "$type",
-        "Point"
-      ],
-      "layout": {
-        "text-field": "{housenumber}",
-        "text-size": 10
-      },
-      "paint": {
-        "text-color": "hsl(232, 44%, 12%)"
+        "fill-antialias": false,
+        "fill-opacity": 0.25
       }
     },
     {
@@ -345,7 +303,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(213, 213, 213)",
+        "line-color": "#3C4357",
         "line-width": {
           "base": 1.4,
           "stops": [
@@ -402,7 +360,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(234,234,234)",
+        "line-color": "hsl(224, 18%, 21%)",
         "line-width": {
           "base": 1.4,
           "stops": [
@@ -449,24 +407,24 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(195, 74%, 19%)",
+        "line-color": "hsl(211, 29%, 38%)",
         "line-width": {
           "base": 1.2,
           "stops": [
             [
-              13,
-              1
+              12,
+              0.5
             ],
             [
               20,
-              10
+              4
             ]
           ]
         },
-        "line-opacity": 0.9,
+        "line-opacity": 1,
         "line-dasharray": [
-          1,
-          1
+          2,
+          2
         ]
       }
     },
@@ -500,7 +458,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(195, 74%, 19%)",
+        "line-color": "hsl(224, 22%, 45%)",
         "line-width": {
           "base": 1.55,
           "stops": [
@@ -548,7 +506,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(195, 41%, 49%)",
+        "line-color": "hsl(224, 22%, 45%)",
         "line-dasharray": [
           12,
           0
@@ -599,7 +557,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(198, 57%, 15%)",
+        "line-color": "#3C4357",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -646,8 +604,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(195, 61%, 24%)",
-        "line-width": 2
+        "line-color": "#3D4355",
+        "line-width": 2,
+        "line-opacity": 0.6
       }
     },
     {
@@ -687,7 +646,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(195, 74%, 35%)",
+        "line-color": "hsl(224, 22%, 45%)",
         "line-width": {
           "base": 1.4,
           "stops": [
@@ -758,7 +717,7 @@
             ],
             [
               6,
-              "hsl(198, 57%, 15%)"
+              "hsl(224, 20%, 29%)"
             ]
           ]
         },
@@ -912,7 +871,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "hsl(200, 65%, 11%)",
+        "line-color": "hsl(200, 10%, 18%)",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -935,13 +894,13 @@
       },
       "ref": "railway",
       "paint": {
-        "line-color": "hsl(193, 63%, 26%)",
+        "line-color": "hsl(224, 20%, 41%)",
         "line-width": {
           "base": 1.3,
           "stops": [
             [
               16,
-              2
+              1.5
             ],
             [
               20,
@@ -992,14 +951,15 @@
         "text-field": "{name}"
       },
       "paint": {
-        "text-color": "hsl(195, 25%, 76%)",
-        "text-halo-color": "hsl(232, 44%, 12%)",
+        "text-color": "hsl(223, 31%, 61%)",
+        "text-halo-color": "hsl(232, 9%, 23%)",
         "text-translate": [
           0,
           0
         ],
         "text-halo-width": 2,
-        "text-halo-blur": 1
+        "text-halo-blur": 0,
+        "text-opacity": 1
       }
     },
     {
@@ -1031,20 +991,21 @@
           "Arial Unicode MS Regular"
         ],
         "symbol-placement": "line",
-        "visibility": "visible",
+        "visibility": "none",
         "text-rotation-alignment": "viewport",
         "text-pitch-alignment": "viewport",
         "text-field": "{ref}"
       },
       "paint": {
-        "text-color": "hsl(195, 41%, 49%)",
+        "text-color": "hsl(215, 57%, 77%)",
         "text-halo-color": "hsl(209, 64%, 19%)",
         "text-translate": [
           0,
           2
         ],
         "text-halo-width": 1,
-        "text-halo-blur": 1
+        "text-halo-blur": 1,
+        "text-opacity": 1
       }
     },
     {
@@ -1066,7 +1027,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(195, 47%, 62%)",
+        "line-color": "hsla(195, 47%, 62%, 0.26)",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1133,7 +1094,7 @@
             ]
           ]
         },
-        "line-opacity": 1
+        "line-opacity": 0.56
       }
     },
     {
@@ -1181,7 +1142,8 @@
         "text-color": "hsl(195, 37%, 73%)",
         "text-halo-color": "hsla(228, 60%, 21%, 0.7)",
         "text-halo-width": 1,
-        "text-halo-blur": 1
+        "text-halo-blur": 1,
+        "text-opacity": 0.6
       }
     },
     {
@@ -1588,7 +1550,8 @@
               "rgb(153, 153, 153)"
             ]
           ]
-        }
+        },
+        "text-opacity": 1
       }
     },
     {
@@ -1651,7 +1614,20 @@
       "paint": {
         "text-halo-width": 1.4,
         "text-halo-color": "hsla(228, 60%, 21%, 0.7)",
-        "text-color": "hsl(0, 0%, 100%)"
+        "text-color": {
+          "base": 1,
+          "stops": [
+            [
+              3,
+              "rgb(157,169,177)"
+            ],
+            [
+              4,
+              "rgb(153, 153, 153)"
+            ]
+          ]
+        },
+        "text-opacity": 1
       }
     },
     {
@@ -1706,8 +1682,26 @@
       "paint": {
         "text-halo-width": 1.4,
         "text-halo-color": "hsla(228, 60%, 21%, 0.7)",
-        "text-color": "hsl(0, 0%, 100%)"
+        "text-color": "hsl(0, 0%, 100%)",
+        "text-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              0,
+              0.6
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        }
       }
     }
-  ]
+  ],
+  "created": "2016-12-12T09:42:38.138Z",
+  "id": "ciwlw4z7800092qmvzlut41tx",
+  "modified": "2016-12-13T11:50:57.366Z",
+  "owner": "openmaptiles",
+  "draft": false
 }
