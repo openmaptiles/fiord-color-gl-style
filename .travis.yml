@@ -7,11 +7,15 @@ branches:
   - master
 addons:
   apt:
-    sources: [ 'ubuntu-toolchain-r-test', 'llvm-toolchain-precise-3.5' ]
-    packages: [ 'libstdc++6' ]
+    sources:
+    - ubuntu-toolchain-r-test
+    - llvm-toolchain-precise-3.5
+    packages:
+    - libstdc++6
 script:
-  - git clone https://github.com/klokantech/gl-style-package-spec.git
-  - cd gl-style-package-spec
-  - bash ./task/deploy.sh
-secure:
-  "rQ8U7OmeTxHFQ4WKjmuWI/ZeVgTRGSyMC8ZjHaz0s3jknwruZ/dnI+aIaMIMojiVp/l/xT7qQ3xh8XpM7E4h97vWgXNEDmYJaij3JPN5zdoy5Szm1xbor5hmki6M1sqdRgKh50H/gH9zE/EfR1ahy7fHhw+O8A3Wm0VId2rp37ftYfW4L49tr1ik4lQXnNoESbulbfXM1BNgKG3U+QuNHpO5FJ/jd8CtFv5py57/GIeRUgT9tHH6Va/ZY9NWgJZ/wa6nCL3ZCK6rVA2D60GUQTgjAXL5AeN1d++N9n4v/BAb9N3pFMFVxM15BumKVAIcVfhO4i+DDurmujZdSX4CGo6/8+coxHodHLDJYwmRL7tMRbVoSYghwYTLgkIzYzJmovGgpr0TsTbFP9SiDihCivQcEV1fbMV4AcoXhfS4kuDBF5TR+HkAqT8acZd6QykoUY9IIREArKWYV2ZbxpcXZfPbmWgO8lBiudyjAvp3TPuT8YdiSJ5RYEoz7ALFyfePKmv8I/OteX0twVxvfFSvYCjwRZhMX2AOo9EHcrL8tMEIpg95pGo/E86htuFgkWT3aLtjuiK3gNREJJvB6eWZg8oPkXr1ZKIktzn377/34zlNLywjbbSkbeha2Cn5/18DRlmSh9IEQSHkqItm2icGh9fkK1OvKhWdNNIHGXtWv+8="
+- git clone https://github.com/klokantech/gl-style-package-spec.git
+- cd gl-style-package-spec
+- bash ./task/deploy.sh
+env:
+  global:
+    secure: XeQHO3LqTXJtOhko9TT54HlBkvUM60ToGviYzNZzzrvM6W1ReURGjOovRXf0hZY3RO5W2zdBRy7FmFo6F2uO4c1BespNpMrgqY8tbZdk1LNvhrpaLjGEZPAcX32JnFDnEJs1USZHNQlhF5blHg76R/6QyNxt7uJGy7um86B2PWZORGjnky7Ct6/6FIIYToK3V2qrnVsasL0I7M5jEMnPQ6Bh/DjGGmIR9q3mbAFb9DSmqKoVoZX7uAv4hbilM7milRkWhUtHHhxOUNWPoQChSdOkAYXZj1FZ5eFToOdwqCQdr/YdXsnKcLgp4w+oadnjcBHeq8WRzKqrcabHeBEGqc9OApryaAzubd+1r4pXTQcYcDuZTftGtMt6ZFlwH4FMMfofuzPFU0nvoh6H29Qlk8u75h9TjV5sTHA5VRzS9vQ5Tvo2UFhi50xyzbm0Ra2sQAHH9sw8wkg6hrLtqppIJ4mEVmvJg3Rk15au2XSbZixfzBE6fpVf1SnFxwKGV4H/Zc1zJHFlDA5v9FTDSq51fdHxUPiDX98U6FfURJ4HuGhinhADmYoRSdhn6e0ls3QKn+jZ1B3htrgJhSLQ8ZLj3yNFsqRsPYfSLf2S8R5Yn6zT5bypbyddk5jZUKW5eOcbru89UXtSyBlpnb73CJkIxwrxzkcwDa6JHtw8E/IeObY=
