@@ -29,12 +29,12 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "mapbox://openmaptiles.4qljc88t",
+      "url": "https://free.tilehosting.com/data/v3.json?key=tXiQqN3lIgskyDErJCeY",
       "type": "vector"
     }
   },
-  "sprite": "mapbox://sprites/openmaptiles/ciwlw4z7800092qmvzlut41tx",
-  "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
+  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
+  "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
