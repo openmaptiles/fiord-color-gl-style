@@ -33,8 +33,8 @@
       "type": "vector"
     }
   },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
+  "sprite": "https://openmaptiles.github.io/fiord-color-gl-style/sprite",
+  "glyphs": "http://demo.tileserver.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -238,7 +238,8 @@
         "symbol-spacing": 500,
         "text-font": [
           "Metropolis Medium Italic",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-size": 12,
         "visibility": "visible"
@@ -996,7 +997,8 @@
         "symbol-spacing": 350,
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1042,7 +1044,8 @@
         "symbol-spacing": 350,
         "text-font": [
           "Metropolis Light",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "symbol-placement": "line",
         "visibility": "none",
@@ -1181,7 +1184,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1227,7 +1231,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1272,7 +1277,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1332,7 +1338,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1399,7 +1406,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1466,7 +1474,8 @@
         "text-transform": "uppercase",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1525,7 +1534,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 10
@@ -1572,7 +1582,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1643,7 +1654,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1711,7 +1723,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Metropolis Regular",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
