@@ -29,12 +29,12 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "https://free.tilehosting.com/data/v3.json?key=tXiQqN3lIgskyDErJCeY",
+      "url": "https://free.tilehosting.com/data/v3.json?key={key}",
       "type": "vector"
     }
   },
   "sprite": "https://openmaptiles.github.io/fiord-color-gl-style/sprite",
-  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key=tXiQqN3lIgskyDErJCeY",
+  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
       "id": "background",
