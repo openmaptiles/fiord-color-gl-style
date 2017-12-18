@@ -1402,12 +1402,11 @@
       "filter": [
         "all",
         [
-          "!in",
+          "in",
           "class",
-          "city",
-          "suburb",
-          "town",
-          "village"
+          "hamlet",
+          "neighbourhood",
+          "isolated_dwelling"
         ],
         [
           "==",
