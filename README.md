@@ -8,13 +8,13 @@ schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
 **[:globe_with_meridians: Browse the map](https://openmaptiles.github.io/fiord-color-gl-style/)**
 
-![Klokantech Night Preview Zurich](https://api.mapbox.com/styles/v1/openmaptiles/ciwgui3x5001w2pnvhc0c2wg0/static/8.540587,47.370555,14.08,0.00,0.00/600x400?access_token=pk.eyJ1Ijoib3Blbm1hcHRpbGVzIiwiYSI6ImNpdnY3eTJxZzAwMGMyb3BpdWJmajcxNzcifQ.hP1BxcxldIhakMcPSJLQ1Q)
+<img src="https://github.com/openmaptiles/fiord-color-gl-style/raw/gh-pages/preview/preview-15.png" width="600" title="Preview Zurich">
 
-![Klokantech Night Preview Lake Zurich](https://api.mapbox.com/styles/v1/openmaptiles/ciwgui3x5001w2pnvhc0c2wg0/static/8.619184,47.336203,9.07,0.00,0.00/600x400?access_token=pk.eyJ1Ijoib3Blbm1hcHRpbGVzIiwiYSI6ImNpdnY3eTJxZzAwMGMyb3BpdWJmajcxNzcifQ.hP1BxcxldIhakMcPSJLQ1Q)
+<img src="https://github.com/openmaptiles/fiord-color-gl-style/raw/gh-pages/preview/preview-10.png" width="600" title="Preview Lake Zurich">
 
-![Klokantech Night Preview Switzerland](https://api.mapbox.com/styles/v1/openmaptiles/ciwgui3x5001w2pnvhc0c2wg0/static/8.243967,46.916315,6.21,0.00,0.00/600x400?access_token=pk.eyJ1Ijoib3Blbm1hcHRpbGVzIiwiYSI6ImNpdnY3eTJxZzAwMGMyb3BpdWJmajcxNzcifQ.hP1BxcxldIhakMcPSJLQ1Q)
+<img src="https://github.com/openmaptiles/fiord-color-gl-style/raw/gh-pages/preview/preview-7.png" width="600" title="Preview Switzerland">
 
-![Klokantech Night Preview Europe](https://api.mapbox.com/styles/v1/openmaptiles/ciwgui3x5001w2pnvhc0c2wg0/static/10.987258,46.453150,3.02,0.00,0.00/600x400?access_token=pk.eyJ1Ijoib3Blbm1hcHRpbGVzIiwiYSI6ImNpdnY3eTJxZzAwMGMyb3BpdWJmajcxNzcifQ.hP1BxcxldIhakMcPSJLQ1Q)
+<img src="https://github.com/openmaptiles/fiord-color-gl-style/raw/gh-pages/preview/preview-4.png" width="600" title="Preview Europe">
 
 ## Edit the Style
 
