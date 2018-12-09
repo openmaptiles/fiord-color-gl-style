@@ -538,6 +538,73 @@
       }
     },
     {
+      "id": "road_area_pier",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ],
+        [
+          "==",
+          "class",
+          "pier"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "#45516E",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "road_pier",
+      "type": "line",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "in",
+          "class",
+          "pier"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#45516E",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              17,
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
       "id": "highway_path",
       "type": "line",
       "metadata": {
