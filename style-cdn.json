@@ -222,35 +222,6 @@
       }
     },
     {
-      "id": "water_name",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "water_name",
-      "filter": [
-        "==",
-        "$type",
-        "LineString"
-      ],
-      "layout": {
-        "symbol-placement": "line",
-        "symbol-spacing": 500,
-        "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": [
-          "Metropolis Medium Italic",
-          "Noto Sans Italic"
-        ],
-        "text-rotation-alignment": "map",
-        "text-size": 12,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-color": "hsl(223, 21%, 52%)",
-        "text-halo-blur": 0,
-        "text-halo-color": "hsl(232, 5%, 19%)",
-        "text-halo-width": 1
-      }
-    },
-    {
       "id": "building",
       "type": "fill",
       "source": "openmaptiles",
@@ -1272,6 +1243,35 @@
             ]
           ]
         }
+      }
+    },
+    {
+      "id": "water_name",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "water_name",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "symbol-spacing": 500,
+        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-font": [
+          "Metropolis Medium Italic",
+          "Noto Sans Italic"
+        ],
+        "text-rotation-alignment": "map",
+        "text-size": 12,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "hsl(223, 21%, 52%)",
+        "text-halo-blur": 0,
+        "text-halo-color": "hsl(232, 5%, 19%)",
+        "text-halo-width": 1
       }
     },
     {
